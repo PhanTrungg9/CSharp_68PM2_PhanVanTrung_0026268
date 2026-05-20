@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,8 +66,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCQL_lophoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQL_lophoc.Designer.cs">
+      <DependentUpon>UCQL_lophoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCQL_sinhvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCQL_sinhvien.Designer.cs">
+      <DependentUpon>UCQL_sinhvien.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -75,6 +96,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UCQL_lophoc.resx">
+      <DependentUpon>UCQL_lophoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCQL_sinhvien.resx">
+      <DependentUpon>UCQL_sinhvien.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

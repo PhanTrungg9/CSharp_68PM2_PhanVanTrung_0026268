@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\home.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:home.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\ucql_lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:ucql_lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\ucql_sinhvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:ucql_sinhvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\ucql_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:ucql_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\ucql_lophoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:ucql_lophoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\ucql_lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:ucql_lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|f:\\c#\\csharp_68pm2_phanvantrung_0026268\\qlsinhvien\\ucql_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:ucql_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE74F02-59E3-4EFF-AE33-60EFA4845161}|QLSinhvien.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +66,128 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "Home.Designer.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.Designer.cs",
+              "RelativeToolTip": "Home.Designer.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwC4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T01:28:29.28Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UCQL_lophoc.cs [Design]",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_lophoc.cs",
+              "RelativeDocumentMoniker": "UCQL_lophoc.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_lophoc.cs [Design]",
+              "RelativeToolTip": "UCQL_lophoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:47:39.214Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UCQL_sinhvien.Designer.cs",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_sinhvien.Designer.cs",
+              "RelativeDocumentMoniker": "UCQL_sinhvien.Designer.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_sinhvien.Designer.cs",
+              "RelativeToolTip": "UCQL_sinhvien.Designer.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAAAHgBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:06:08.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.resx",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.resx",
+              "RelativeDocumentMoniker": "Home.resx",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.resx",
+              "RelativeToolTip": "Home.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-20T03:41:02.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.cs [Design]",
+              "RelativeToolTip": "Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T00:20:07.3Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cs",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Home.cs",
+              "RelativeToolTip": "Home.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T01:30:05.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UCQL_sinhvien.cs [Design]",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_sinhvien.cs",
+              "RelativeDocumentMoniker": "UCQL_sinhvien.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_sinhvien.cs [Design]",
+              "RelativeToolTip": "UCQL_sinhvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:50:09.01Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UCQL_lophoc.Designer.cs",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_lophoc.Designer.cs",
+              "RelativeDocumentMoniker": "UCQL_lophoc.Designer.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_lophoc.Designer.cs",
+              "RelativeToolTip": "UCQL_lophoc.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:47:59.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UCQL_lophoc.cs",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_lophoc.cs",
+              "RelativeDocumentMoniker": "UCQL_lophoc.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_lophoc.cs",
+              "RelativeToolTip": "UCQL_lophoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:47:52.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Main.cs [Design]",
               "RelativeToolTip": "Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T03:14:30.216Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-05-20T03:35:11.46Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -71,75 +208,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Main.cs",
-              "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAewCkAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "Main.Designer.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Main.Designer.cs",
+              "RelativeToolTip": "Main.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T03:16:24.967Z",
+              "WhenOpened": "2026-05-20T03:14:54.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "UCQL_sinhvien.cs",
+              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_sinhvien.cs",
+              "RelativeDocumentMoniker": "UCQL_sinhvien.cs",
+              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\UCQL_sinhvien.cs",
+              "RelativeToolTip": "UCQL_sinhvien.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:59:42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T02:57:52.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T02:55:18.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.resx",
-              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.resx",
-              "RelativeDocumentMoniker": "Form1.resx",
-              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.resx",
-              "RelativeToolTip": "Form1.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-13T02:55:13.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T02:48:45.688Z",
+              "WhenOpened": "2026-05-13T02:57:52.886Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "F:\\C#\\CSharp_68PM2_PhanVanTrung_0026268\\QLSinhvien\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "F:\\C#\\QLSinhvien\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\QLSinhvien\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T02:40:23.314Z"
             }
           ]
         }
