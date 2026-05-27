@@ -30,11 +30,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cb_Lop = new System.Windows.Forms.ComboBox();
+            this.cb_Gt = new System.Windows.Forms.ComboBox();
+            this.dtp_NgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.txt_HoTen = new System.Windows.Forms.TextBox();
+            this.txt_MSSV = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,23 +47,23 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_DSSV = new System.Windows.Forms.DataGridView();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DSSV)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.cb_Lop);
+            this.groupBox1.Controls.Add(this.cb_Gt);
+            this.groupBox1.Controls.Add(this.dtp_NgaySinh);
+            this.groupBox1.Controls.Add(this.txt_HoTen);
+            this.groupBox1.Controls.Add(this.txt_MSSV);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -79,47 +79,50 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sinh viên";
             // 
-            // comboBox2
+            // cb_Lop
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(10, 377);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(379, 26);
-            this.comboBox2.TabIndex = 9;
+            this.cb_Lop.FormattingEnabled = true;
+            this.cb_Lop.Location = new System.Drawing.Point(10, 377);
+            this.cb_Lop.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_Lop.Name = "cb_Lop";
+            this.cb_Lop.Size = new System.Drawing.Size(379, 26);
+            this.cb_Lop.TabIndex = 9;
             // 
-            // comboBox1
+            // cb_Gt
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(10, 303);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(379, 26);
-            this.comboBox1.TabIndex = 8;
+            this.cb_Gt.FormattingEnabled = true;
+            this.cb_Gt.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ"});
+            this.cb_Gt.Location = new System.Drawing.Point(10, 303);
+            this.cb_Gt.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_Gt.Name = "cb_Gt";
+            this.cb_Gt.Size = new System.Drawing.Size(379, 26);
+            this.cb_Gt.TabIndex = 8;
             // 
-            // dateTimePicker1
+            // dtp_NgaySinh
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(10, 219);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(379, 24);
-            this.dateTimePicker1.TabIndex = 7;
+            this.dtp_NgaySinh.Location = new System.Drawing.Point(10, 219);
+            this.dtp_NgaySinh.Margin = new System.Windows.Forms.Padding(2);
+            this.dtp_NgaySinh.Name = "dtp_NgaySinh";
+            this.dtp_NgaySinh.Size = new System.Drawing.Size(379, 24);
+            this.dtp_NgaySinh.TabIndex = 7;
             // 
-            // textBox2
+            // txt_HoTen
             // 
-            this.textBox2.Location = new System.Drawing.Point(10, 144);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(379, 24);
-            this.textBox2.TabIndex = 6;
+            this.txt_HoTen.Location = new System.Drawing.Point(10, 144);
+            this.txt_HoTen.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_HoTen.Name = "txt_HoTen";
+            this.txt_HoTen.Size = new System.Drawing.Size(379, 24);
+            this.txt_HoTen.TabIndex = 6;
             // 
-            // textBox1
+            // txt_MSSV
             // 
-            this.textBox1.Location = new System.Drawing.Point(10, 68);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(379, 24);
-            this.textBox1.TabIndex = 5;
+            this.txt_MSSV.Location = new System.Drawing.Point(10, 68);
+            this.txt_MSSV.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_MSSV.Name = "txt_MSSV";
+            this.txt_MSSV.Size = new System.Drawing.Size(379, 24);
+            this.txt_MSSV.TabIndex = 5;
             // 
             // label5
             // 
@@ -188,6 +191,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -257,16 +261,18 @@
             this.button5.Text = "Tìm";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dgv_DSSV
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.Location = new System.Drawing.Point(435, 97);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(737, 484);
-            this.dataGridView1.TabIndex = 9;
+            this.dgv_DSSV.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgv_DSSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_DSSV.GridColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dgv_DSSV.Location = new System.Drawing.Point(438, 102);
+            this.dgv_DSSV.Name = "dgv_DSSV";
+            this.dgv_DSSV.RowHeadersWidth = 51;
+            this.dgv_DSSV.RowTemplate.Height = 24;
+            this.dgv_DSSV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv_DSSV.Size = new System.Drawing.Size(737, 484);
+            this.dgv_DSSV.TabIndex = 9;
             // 
             // button6
             // 
@@ -327,7 +333,7 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_DSSV);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label6);
@@ -340,9 +346,10 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCQL_sinhvien";
             this.Size = new System.Drawing.Size(1175, 666);
+            this.Load += new System.EventHandler(this.UCQL_sinhvien_Load_1);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DSSV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,11 +362,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txt_HoTen;
+        private System.Windows.Forms.TextBox txt_MSSV;
+        private System.Windows.Forms.ComboBox cb_Lop;
+        private System.Windows.Forms.ComboBox cb_Gt;
+        private System.Windows.Forms.DateTimePicker dtp_NgaySinh;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -367,7 +374,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_DSSV;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;

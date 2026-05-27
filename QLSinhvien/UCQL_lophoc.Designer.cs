@@ -45,7 +45,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_QLLH = new System.Windows.Forms.DataGridView();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -53,7 +53,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_QLLH)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -244,16 +244,17 @@
             this.button5.Text = "Tìm";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dgv_QLLH
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.Location = new System.Drawing.Point(437, 99);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(737, 484);
-            this.dataGridView1.TabIndex = 9;
+            this.dgv_QLLH.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgv_QLLH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_QLLH.GridColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dgv_QLLH.Location = new System.Drawing.Point(437, 99);
+            this.dgv_QLLH.Name = "dgv_QLLH";
+            this.dgv_QLLH.RowHeadersWidth = 51;
+            this.dgv_QLLH.RowTemplate.Height = 24;
+            this.dgv_QLLH.Size = new System.Drawing.Size(737, 484);
+            this.dgv_QLLH.TabIndex = 9;
             // 
             // button6
             // 
@@ -327,7 +328,7 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_QLLH);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label6);
@@ -341,9 +342,10 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCQL_lophoc";
             this.Size = new System.Drawing.Size(1179, 680);
+            this.Load += new System.EventHandler(this.UCQL_lophoc_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_QLLH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -365,7 +367,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_QLLH;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
