@@ -220,7 +220,48 @@ namespace QLSinhvien
                 MessageBox.Show("Lỗi sửa: " + ex.Message);
             }
         }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txt_MSSV.Text.Trim() == "")
+                {
+                    MessageBox.Show("Vui lòng chọn hoặc nhập mã sinh viên cần xóa!");
+                    return;
+                }
 
+                int id = Convert.ToInt32(txt_MSSV.Text.Trim());
+
+                SinhVien sv = db.SinhViens.FirstOrDefault(x => x.id == id);
+
+                if (sv == null)
+                {
+                    MessageBox.Show("Không tìm thấy sinh viên cần xóa!");
+                    return;
+                }
+
+                DialogResult result = MessageBox.Show(
+                    "Bạn có chắc muốn xóa sinh viên này không?",
+                    "Xác nhận xóa",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question
+                );
+
+                if (result == DialogResult.Yes)
+                {
+                    db.SinhViens.DeleteOnSubmit(sv);
+                    db.SubmitChanges();
+
+                    MessageBox.Show("Xóa sinh viên thành công!");
+                    LoadData();
+                    ClearForm();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi xóa: " + ex.Message);
+            }
+        }
 
     }
 }
