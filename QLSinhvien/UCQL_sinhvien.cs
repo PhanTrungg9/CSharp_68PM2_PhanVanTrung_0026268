@@ -184,7 +184,43 @@ namespace QLSinhvien
                 txt_MSSV.ReadOnly = true;
             }
         }
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txt_MSSV.Text.Trim() == "")
+                {
+                    MessageBox.Show("Vui lòng chọn hoặc nhập mã sinh viên cần sửa!");
+                    return;
+                }
+
+                int id = Convert.ToInt32(txt_MSSV.Text.Trim());
+
+                SinhVien sv = db.SinhViens.FirstOrDefault(x => x.id == id);
+
+                if (sv == null)
+                {
+                    MessageBox.Show("Không tìm thấy sinh viên cần sửa!");
+                    return;
+                }
+
+                sv.hoten = txt_HoTen.Text.Trim();
+                sv.gioitinh = cb_Gt.Text;
+                sv.ngaysinh = dtp_NgaySinh.Value;
+                sv.malop = Convert.ToInt32(cb_Lop.SelectedValue);
+
+                db.SubmitChanges();
+
+                MessageBox.Show("Sửa sinh viên thành công!");
+                LoadData();
+                ClearForm();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi sửa: " + ex.Message);
+            }
+        }
+
 
     }
 }
