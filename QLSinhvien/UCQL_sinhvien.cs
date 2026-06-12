@@ -19,6 +19,8 @@ namespace QLSinhvien
         int pageSize = 5;
         int totalRecords = 0;
         int totalPages = 1;
+
+        string keyword = "";
         public UCQL_sinhvien()
         {
             InitializeComponent();
@@ -67,7 +69,15 @@ namespace QLSinhvien
         }
         private void LoadData()
         {
-            totalRecords = db.SinhViens.Count();
+            var query = db.SinhViens.AsQueryable();
+
+            // Tìm kiếm theo họ tên sinh viên
+            if (!string.IsNullOrWhiteSpace(keyword))
+            {
+                query = query.Where(sv => sv.hoten.Contains(keyword));
+            }
+
+            totalRecords = query.Count();
 
             totalPages = (int)Math.Ceiling((double)totalRecords / pageSize);
 
@@ -86,7 +96,7 @@ namespace QLSinhvien
                 currentPage = totalPages;
             }
 
-            var ds = db.SinhViens
+            var ds = query
                 .OrderBy(sv => sv.id)
                 .Skip((currentPage - 1) * pageSize)
                 .Take(pageSize)
@@ -102,12 +112,19 @@ namespace QLSinhvien
 
             dgv_DSSV.DataSource = ds;
 
-            label7.Text = $"Trang {currentPage}/{totalPages} | {totalRecords} bản ghi";
+            if (string.IsNullOrWhiteSpace(keyword))
+            {
+                label7.Text = $"Trang {currentPage}/{totalPages} | {totalRecords} bản ghi";
+            }
+            else
+            {
+                label7.Text = $"Trang {currentPage}/{totalPages} | Tìm thấy {totalRecords} bản ghi";
+            }
 
-            button6.Enabled = currentPage > 1;
-            button7.Enabled = currentPage > 1;
-            button9.Enabled = currentPage < totalPages;
-            button8.Enabled = currentPage < totalPages;
+            button6.Enabled = currentPage > 1;          // <<
+            button7.Enabled = currentPage > 1;          // <
+            button9.Enabled = currentPage < totalPages; // >
+            button8.Enabled = currentPage < totalPages; // >>
         }
         private void button6_Click(object sender, EventArgs e)
         {
@@ -148,6 +165,8 @@ namespace QLSinhvien
 
         private void button4_Click(object sender, EventArgs e)
         {
+            keyword = "";
+            txtSearch.Clear();
             ClearForm();
             LoadData();
             txt_MSSV.ReadOnly = false;
@@ -263,5 +282,23 @@ namespace QLSinhvien
             }
         }
 
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            keyword = txtSearch.Text.Trim();
+
+            if (keyword == "")
+            {
+                MessageBox.Show("Vui lòng nhập tên sinh viên cần tìm!");
+                return;
+            }
+
+            currentPage = 1;
+            LoadData();
+
+            if (totalRecords == 0)
+            {
+                MessageBox.Show("Không tìm thấy sinh viên có tên: " + keyword);
+            }
+        }
     }
 }
